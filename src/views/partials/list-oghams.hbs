@@ -1,0 +1,30 @@
+<!-- list oghams -->
+
+<table class="ui celled table">
+    <thead>
+    <tr>
+        <th>Name</th>
+        <th>Latitude</th>
+        <th>Longitude</th>
+        <th>County</th>
+        <th>Translation</th>
+    </tr>
+    </thead>
+    <tbody>
+    {{#each category.oghams}}
+        <tr>
+            <td>{{title}}</td>
+            <td>{{lat}}</td>
+            <td>{{long}}</td>
+            <td>{{county}}</td>
+            <td>{{translation}}</td>
+            <td>
+                <a href="/category/{{../category._id}}/deleteogham/{{_id}}" class="ui icon button">
+                    <i class="fas fa-trash"></i>
+                </a>
+            </td>
+        </tr>
+        </tr>
+    {{/each}}
+    </tbody>
+</table>

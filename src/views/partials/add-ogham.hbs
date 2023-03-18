@@ -1,0 +1,23 @@
+<form class="box" action="/category/{{category._id}}/addogham" method="POST">
+    <label>Enter Details</label>
+    <div class="field is vertical">
+        <field-body>
+            <div class="field">
+                <input class="input" type="text" placeholder="Name" name="title">
+            </div>
+            <div class="field">
+                <input class="input" type="number" placeholder="Lat°" name="lat">
+            </div>
+            <div class="field">
+                <input class="input" type="number" placeholder="Long°" name="long">
+            </div>
+            <div class="field">
+                <input class="input" type="text" placeholder="County" name="county">
+            </div>
+            <div class="field">
+                <textarea class="textarea" placeholder="Textarea" name="translation"></textarea>
+            </div>
+        </field-body>
+    </div>
+    <button class="button is-primary">Submit</button>
+</form>

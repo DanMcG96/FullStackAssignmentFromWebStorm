@@ -1,0 +1,20 @@
+{
+  "categories": [
+    {
+      "title": "Galway",
+      "_id": "5449eb48-c3e1-42a3-9f36-2f7fb2732c80"
+    },
+    {
+      "title": "Dublin",
+      "_id": "a35e1c08-b66d-4f87-ad14-ca9a16ab6269"
+    },
+    {
+      "title": "Cork",
+      "_id": "8fed6d29-2535-4c52-8d0a-0eb61be83689"
+    },
+    {
+      "title": "Donegal",
+      "_id": "df521f85-4acf-4e8c-91c0-b9acf9a8b271"
+    }
+  ]
+}

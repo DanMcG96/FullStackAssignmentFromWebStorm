@@ -1,0 +1,25 @@
+{
+  "users": [
+    {
+      "firstName": "Sean",
+      "lastName": "Hutchinson",
+      "email": "sean@hutchinson.com",
+      "password": "mattblack",
+      "_id": "2e307aca-4ce6-4111-866f-093bda1c75cf"
+    },
+    {
+      "firstName": "Rachel",
+      "lastName": "Duffy",
+      "email": "rachel@duffy.com",
+      "password": "blonde",
+      "_id": "99ecfc8a-5920-4111-ad2d-ca2fbf131f16"
+    },
+    {
+      "firstName": "Aoife",
+      "lastName": "Haden",
+      "email": "aoife@haden.com",
+      "password": "camera",
+      "_id": "f510e7a0-b304-413c-bc3f-3a2fbf6722c5"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{{#each categories}}
+    <div class="box">
+        <h2 class="title">
+            {{title}}
+        </h2>
+        <a href="/category/{{_id}}" class="button">
+            <i class="fas fa-folder fa-2x"></i>
+        </a>
+        <a href="/dashboard/deletecategory/{{_id}}" class="button">
+            <i class="fas fa-trash"></i>
+        </a>
+    </div>
+{{/each}}
+
+
+<style>
+    .box{
+        display: grid;
+        margin-top: 50px;
+        background-color: lightgreen;
+        place-items: center;
+    }
+</style>
